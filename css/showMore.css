@@ -1,0 +1,41 @@
+.showMoreSection{
+  margin-bottom: 100px;
+}
+.showMoreSection .showMore{
+  position: relative;
+  background-color: #fff;
+  padding: 35px 55px;
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.showMoreSection .showMore .showMore__text{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.showMoreSection .showMore .showMore__link{
+  font-size: 14px;
+  color: #1C398B;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.showMoreSection .showMore .showMore__btn{
+  background-color: #fff;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  bottom: -31px;
+  left: calc(50% - 31px);
+  position: absolute;
+}
+.showMoreSection .showMore .showMore__btn svg{
+  width: 14px;
+}

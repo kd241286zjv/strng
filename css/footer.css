@@ -1,0 +1,67 @@
+footer{
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #fff;
+  background-color: #1C398B;
+}
+footer .contactsBlock{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+footer .contactsBlock .contactsPhone a{
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+footer .contactsBlock .callback{
+  margin-top: 40px;
+  width: 210px;
+  height: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #D82E67;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+footer .contactsBlock .callback:hover{
+  opacity: .8;
+}
+footer .contactsBlock .contactsPhone{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+footer .contactsBlock .contactsPhone span{
+  font-size: 12px;
+}
+footer .footerAddresses{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+footer .footerAddresses p{
+  margin-bottom: 40px;
+}
+footer .copyright{
+  font-size: 14px;
+}

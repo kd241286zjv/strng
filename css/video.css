@@ -1,0 +1,22 @@
+.videoSection{
+  margin-bottom: 100px;
+}
+.videoBlock__header{
+  height: 80px;
+  background-color: #1C398B;
+  color: #fff;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.videoBlock__header h3{
+  text-align: center;
+  font-size: 32px;
+}
+.videoBlock__body iframe{
+  width: 100%;
+  height: 700px;
+}

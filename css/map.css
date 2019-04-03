@@ -1,0 +1,26 @@
+.mapSection{
+  margin-bottom: 100px;
+}
+.mapSection .mapBlock{
+  background-color: #fff;
+}
+.mapSection .mapBlock .mapBlock__header{
+  height: 80px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.mapSection .mapBlock .mapBlock__header h3{
+  font-size: 32px;
+}
+.mapSection .mapBlock .mapBlock__body{
+  width: 100%;
+  height: 580px;
+}
+.mapSection .mapBlock .mapBlock__body #map{
+  height: 100%;
+  width: 100%;
+}

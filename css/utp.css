@@ -1,0 +1,13 @@
+.utpSection{
+  background-image: url('../img/utp.png');
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+.utpSection h1{
+  margin-top: 400px;
+  margin-bottom: 40px;
+  font-size: 62px;
+  text-align: center;
+  text-transform: uppercase;
+}

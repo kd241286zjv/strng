@@ -1,0 +1,57 @@
+header{
+  background-color: #1C398B;
+  color: #fff;
+}
+header .row{
+  height: 100px;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo{
+  width: 200px;
+}
+header .contactsBlock{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: stretch;
+  align-items: stretch;
+}
+header .contactsBlock .contactsPhone{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+header .contactsBlock .contactsPhone a{
+  font-size: 24px;
+}
+header .contactsBlock .contactsPhone span{
+  font-size: 12px;
+}
+header .contactsBlock .callback{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 210px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #D82E67;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+header .contactsBlock .callback:hover{
+  opacity: .8;
+}

@@ -1,0 +1,57 @@
+.countdownSection{
+  margin-bottom: 100px;
+}
+.countdownSection .countdownBlock{
+  background-color: #fff;
+}
+.countdownSection .countdownBlock .countdownBlock__header{
+  border-bottom: 2px solid #EEF5FB;
+  height: 80px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+.countdownSection .countdownBlock .countdownBlock__header h3{
+  font-size: 24px;
+  color: #1C398B;
+}
+.countdownBlock__body{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.countdownBlock__body p{
+  font-size: 94px;
+  color: #1C398B;
+  margin: 0 25px;
+  position: relative;
+}
+.countdownBlock__body p:before{
+  position: absolute;
+  left: 0;
+  top: -15px;
+  font-size: 18px;
+  color: #1C398B;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.countdown__days:before{
+  content: 'дней';
+}
+.countdown__hours:before{
+  content: 'часов';
+}
+.countdown__minutes:before{
+  content: 'минут';
+}
+.countdown__seconds:before{
+  content: 'секунд';
+}
