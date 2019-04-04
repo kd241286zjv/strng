@@ -9,6 +9,7 @@
 @import url('presentsV.css');
 @import url('map.css');
 @import url('footer.css');
+@import url('adaptive.css');
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=cyrillic');
 *{
@@ -16,6 +17,9 @@
 }
 p{
   margin: 0;
+}
+button{
+  border: none;
 }
 a, a:hover, a:focus{
   outline: none;
@@ -25,11 +29,4 @@ a, a:hover, a:focus{
 body{
   font-family: 'Open Sans', sans-serif;
   color: #010101;
-}
-main{
-  background-color: #EDF4FA;
-  background-image: url('../img/bg.png');
-}
-.mainSection .container{
-  background-color: #BEE5EB;
 }

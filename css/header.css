@@ -55,3 +55,10 @@ header .contactsBlock .callback{
 header .contactsBlock .callback:hover{
   opacity: .8;
 }
+main{
+  background-color: #EDF4FA;
+  background-image: url('../img/bg.png');
+}
+.mainSection .container{
+  background-color: #BEE5EB;
+}
