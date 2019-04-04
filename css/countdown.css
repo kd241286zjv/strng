@@ -3,6 +3,9 @@
 }
 .countdownSection .countdownBlock{
   background-color: #fff;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .countdownSection .countdownBlock .countdownBlock__header{
   border-bottom: 2px solid #EEF5FB;
@@ -17,6 +20,7 @@
 .countdownSection .countdownBlock .countdownBlock__header h3{
   font-size: 24px;
   color: #1C398B;
+  font-weight: 600;
 }
 .countdownBlock__body{
   display: -webkit-flex;
@@ -31,6 +35,7 @@
   font-size: 94px;
   color: #1C398B;
   margin: 0 25px;
+  font-weight: 700;
   position: relative;
 }
 .countdownBlock__body p:before{

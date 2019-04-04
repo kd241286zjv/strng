@@ -20,6 +20,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 700;
 }
 .showMoreSection .showMore .showMore__btn{
   background-color: #fff;

@@ -136,6 +136,12 @@
     max-width: 100%;
   }
 }
+@media(max-width: 991px){
+  /********COUNTDOWN********/
+  .countdownBlock__body p{
+    margin: 0 20px;
+  }
+}
 @media(max-width: 767px){
   /********HEADER********/
 
@@ -272,7 +278,6 @@
   /********COUNTDOWN********/
   .countdownBlock__body p{
     font-size: 30px;
-    font-weight: 700;
   }
   .countdownBlock__body p:before{
     font-size: 12px;
